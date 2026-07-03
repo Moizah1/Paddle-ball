@@ -39,7 +39,7 @@ pip install opencv-python mediapipe numpy
 ## 🧩 Model File
 
 This game uses MediaPipe's **HandLandmarker** task model. Download `hand_landmarker.task` and place it in the same directory as the script:
- download it manually from the [MediaPipe Hand Landmarker model page](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker) 
+ download it manually from the [MediaPipe Hand Landmarker model page](https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task) 
 ## ▶️ Running the Game
 
 ```bash
