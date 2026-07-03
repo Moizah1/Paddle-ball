@@ -627,7 +627,7 @@ class BallCatchGame:
         cv2.addWeighted(ov, 0.60, frame, 0.40, 0, frame)
 
         pulse = int(abs(math.sin(t * 2)) * 25)
-        title = "BALL CATCH"
+        title = "PADDLE BALL"
         tw = cv2.getTextSize(title, FONT, 2.8, 5)[0][0]
 
         for thickness, alpha_val in [(18, 0.05), (10, 0.12), (5, 0.3)]:
